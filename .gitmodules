@@ -1,0 +1,3 @@
+[submodule "scripts/rofi-bluetooth"]
+	path = scripts/rofi-bluetooth
+	url = git@github.com:JuliusSchumacher/rofi-bluetooth.git
