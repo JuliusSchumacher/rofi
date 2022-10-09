@@ -12,7 +12,7 @@ configuration {
 /*****----- Main Window -----*****/
 
 * {
-    font: "Victor Mono Nerd Font Heavy 12";
+    font: "Victor Mono Nerd Font Heavy 16";
     text-style: bold;
 }
 

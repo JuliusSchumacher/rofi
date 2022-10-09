@@ -1,8 +1,6 @@
 /*****----- Configuration -----*****/
 configuration {
     show-icons:                 false;
-    display-drun:               "";
-    drun-display-format:        "bluetooth:";
 }
 
 /*****----- Global Properties -----*****/
@@ -12,7 +10,7 @@ configuration {
 /*****----- Main Window -----*****/
 
 * {
-    font: "Victor Mono Nerd Font Heavy 14";
+    font: "Victor Mono Nerd Font Heavy 16";
     text-style: bold;
 }
 
