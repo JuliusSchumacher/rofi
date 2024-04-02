@@ -1,0 +1,6 @@
+@import "./list.rasi"
+
+textbox-prompt-colon {
+    enabled: true;
+    str: "󱘞 Clip: ";
+}
