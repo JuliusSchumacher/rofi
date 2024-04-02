@@ -12,7 +12,7 @@ configuration {
 /*****----- Main Window -----*****/
 
 * {
-    font: "Victor Mono Nerd Font Heavy 16";
+    font: "MonaspiceNe Nerd Font Heavy 16";
     text-style: bold;
 }
 
@@ -65,6 +65,7 @@ prompt {
     enabled:                     true;
     background-color:            inherit;
     text-color:                  inherit;
+    padding:                     0 10 0 0;
 }
 textbox-prompt-colon {
     enabled:                     true;

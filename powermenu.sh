@@ -25,8 +25,11 @@ case $chosen in
         ;;
     $logout)
         i3-msg exit
+        hyprctl dispatch exit
         ;;
     $lock)
         xset s activate
+        waylock
+        # gtklock -m playerctl-module -S -s ~/.config/gtklock/theme.css -d
         ;;
 esac
