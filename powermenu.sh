@@ -6,7 +6,7 @@ theme='powermenu'
 poweroff="⏻"
 reboot=""
 lock=""
-logout=""
+logout="󰍃"
 
 run_rofi() {
     echo -e "$poweroff\n$reboot\n$lock\n$logout" |
@@ -29,7 +29,6 @@ case $chosen in
         ;;
     $lock)
         xset s activate
-        waylock
-        # gtklock -m playerctl-module -S -s ~/.config/gtklock/theme.css -d
+        loginctl lock-session
         ;;
 esac
